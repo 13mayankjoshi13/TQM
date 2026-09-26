@@ -1,90 +1,76 @@
-# Hostel Management System
+# Hostel Management System — TQM Project
 
-**TQM Course Project — BBAT104**
-**Student:** Mayank Joshi
+**Student:** Mayank Joshi  
+**Roll No.:** 2410302037  
+**Branch:** CSE  
+**Section:** B  
+**Course:** BBAT104 — Fundamentals of TQM  
 **Academic Session:** 2026–27
 
-## Project Overview
+## Assigned Project
 
-The Hostel Management System is a software project developed for the Fundamentals of Total Quality Management (TQM) course.
+**Baseline System:** Hostel Management System  
+**Assigned Quality Goal:** **Q09 — Reduce Bugs**
 
-The system will focus on improving hostel operations, particularly **room allocation and complaint resolution**.
+The project allotment sheet assigns Mayank Joshi to the Hostel Management System with Q09 — Reduce Bugs. The five suggested Q09 features are:
 
-The project will not only provide basic hostel management functionality but will also integrate TQM principles into the software development process.
+1. Exception Handling
+2. Strict Validation
+3. Module Tests
+4. Bug Tracker
+5. Error Logs
 
-## Main Objectives
+The Hostel Management System will therefore use these five features as its primary quality-goal implementation while also applying the required TQM concepts and SQC tools.
 
-* Manage student/hosteller records.
-* Manage hostel rooms and room availability.
-* Provide controlled room allocation.
-* Manage and track complaints.
-* Prevent incorrect data at the source.
-* Maintain audit logs for important activities.
-* Detect and record software errors and defects.
-* Monitor important quality metrics.
-* Apply TQM tools to improve system quality.
+## Core Operational Focus
 
-## Planned TQM Concepts
+The baseline hostel system focuses on:
 
-The project will demonstrate:
+- Room allocation
+- Complaint resolution
 
-* Customer Focus
-* Error Prevention / Poka-Yoke
-* Process Control
-* Process Monitoring
-* FMEA
-* SIPOC
-* CTQ Analysis
-* Defect Logging
-* Pareto Analysis
-* Fishbone Analysis
-* PDCA / Continuous Improvement
-* Fact-Based Decision Making
+## Main TQM Approach
 
-## Planned Core Modules
+**Prevent → Control → Detect → Record → Analyze → Improve**
 
-1. User Authentication
-2. Student Management
-3. Room Management
-4. Room Allocation
-5. Complaint Management
-6. Dashboard
-7. Audit Logs
-8. Error and Defect Logs
-9. Quality Monitoring
+Quality will be built into the software process rather than checked only after development.
 
-## Technology
+## Planned System Modules
 
-The planned implementation will use:
+- Authentication and user roles
+- Student management
+- Room management
+- Room allocation
+- Complaint management
+- Quality/error monitoring
+- Audit logging
+- Bug tracking
+- Reporting
 
-* Python
-* Tkinter / CustomTkinter
-* SQLite
-* Matplotlib
-* Pandas
-* Git
-* GitHub
+## TQM Artifacts
 
-## TQM Approach
+The `TQM/` directory contains:
 
-The project will follow the principle:
+- Customer requirements
+- Assigned quality goal
+- Quality features
+- Error prevention
+- Process control
+- Process map
+- SIPOC
+- CTQ tree
+- FMEA
+- Quality monitoring
+- Pareto analysis
+- Fishbone analysis
+- PDCA
+- Requirements traceability
+- Quality data templates
 
-> **Quality should be built into the process, not checked only at the end.**
+## Development
 
-Therefore, validation, process controls, logging and monitoring will be integrated into the software instead of being treated as separate documentation.
+The application will be developed incrementally using Python, SQLite and a GUI based on the technologies specified in the course guidelines.
 
-## Project Status
+## Repository Principle
 
-**Current Stage:** Project Initialization
-
-The system architecture, requirements, database and application modules will be developed incrementally.
-
----
-
-## Student
-
-**Mayank Joshi**
-
-**Project:** Hostel Management System
-**Course:** BBAT104 — Fundamentals of TQM
-**Academic Session:** 2026–27
+> Quality should be built into the process, not checked only at the end.
