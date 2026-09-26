@@ -1,81 +1,49 @@
 # Project Overview
 
-## 1. Project Name
+## Project Information
 
-**Hostel Management System**
+| Item | Details |
+|---|---|
+| Student | Mayank Joshi |
+| Roll No. | 2410302037 |
+| Branch | CSE |
+| Section | B |
+| Course | BBAT104 — Fundamentals of TQM |
+| Academic Session | 2026–27 |
+| Baseline System | Hostel Management System |
+| Quality Goal | Q09 — Reduce Bugs |
 
-## 2. Student
+## Objective
 
-**Mayank Joshi**
+The objective is to develop a practical Hostel Management System and integrate Total Quality Management into its development, operation and improvement.
 
-## 3. Course
+The baseline system will concentrate on room allocation and complaint resolution. The assigned quality goal, Q09 — Reduce Bugs, will be implemented through exception handling, strict validation, module tests, a bug tracker and error logs.
 
-**BBAT104 — Fundamentals of TQM**
+## Customer
 
-## 4. Academic Session
+The proposed primary operational customer is the **Hostel Administration / Hostel Warden**, because hostel administration is responsible for hostel operations.
 
-**2026–27**
+### Users
 
-## 5. Project Objective
+- Hostel Warden
+- Hostel Administrator
+- Hostel Staff
+- System Administrator
+- Students / Hostellers where applicable
 
-The objective of this project is to develop a user-friendly Hostel Management System that helps manage hostel operations while applying Total Quality Management principles.
+## Project Quality Direction
 
-The main operational focus will be:
+The software will attempt to prevent errors at source, control important workflows, detect failures, record evidence and use that evidence for improvement.
 
-* Room allocation
-* Complaint resolution
-* Data accuracy
-* Error prevention
-* Process monitoring
-* Continuous improvement
+## Development Stages
 
-## 6. Customer
-
-The primary customer for the system is the:
-
-**Hostel Administration / Hostel Warden**
-
-Other stakeholders and users may include:
-
-* Hostel staff
-* Students/hostellers
-* System administrator
-
-## 7. Quality Focus
-
-The project will focus on preventing errors before they enter the system, controlling important hostel processes and continuously monitoring software quality.
-
-Examples include:
-
-* Preventing duplicate room allocation
-* Validating student information
-* Maintaining room availability correctly
-* Tracking complaint status
-* Recording important system activities
-* Recording errors and defects
-* Monitoring quality metrics
-
-## 8. Planned Development Approach
-
-The project will be developed incrementally.
-
-Initial stages:
-
-1. Project setup
-2. Requirement analysis
-3. Customer requirements
-4. SRS
-5. System architecture
-6. Database design
-7. Core application modules
-8. Quality features
-9. Testing
-10. TQM analysis and monitoring
-
-## 9. Quality Principle
-
-The central quality principle for this project is:
-
-**Prevent → Control → Monitor → Measure → Improve**
-
-This principle will connect the software features with the TQM activities.
+1. Requirement analysis
+2. SRS and architecture
+3. Database design
+4. Base CRUD system
+5. Q09 quality features
+6. Process and risk analysis
+7. SQC tools
+8. Testing
+9. Continuous improvement
+10. Final documentation and demonstration
